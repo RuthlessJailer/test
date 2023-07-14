@@ -1,0 +1,7 @@
+#! /bin/sh
+echo hey 
+if ! ( git pull ); then
+        echo fail
+else
+        echo succ
+fi
